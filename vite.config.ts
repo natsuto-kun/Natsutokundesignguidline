@@ -22,6 +22,7 @@ export default defineConfig({
       fileName: (format) => `index.${format}.js`,
       formats: ['es', 'umd'], // ESMとUMD両方出すのが一般的
     },
+    cssCodeSplit: false,
     rollupOptions: {
       // ライブラリに含めたくない（利用側に持たせたい）パッケージを指定
       external: ['react', 'react-dom', 'react/jsx-runtime'],
