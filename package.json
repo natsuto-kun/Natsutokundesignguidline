@@ -25,8 +25,9 @@
   "url": "https://github.com/natsuto-kun/Natsutokundesignguidline.git"
   },
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "build:lib": "vite build --mode library"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
